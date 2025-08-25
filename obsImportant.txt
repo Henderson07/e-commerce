@@ -1,0 +1,38 @@
+Acessos:
+
+🎯 Laravel: http://ecommerce.test:8000/
+
+🗄️ PHPMyAdmin: http://localhost:8082
+
+📊 MySQL: porta 3307
+
+
+# Para usar com Docker:
+DB_HOST=db
+
+# Para usar com php artisan serve (e MySQL na sua máquina):
+DB_HOST=127.0.0.1
+
+
+Para iniciar o serve com a rota personalizada do arquivo host
+
+Dir: C:\Windows\System32\drivers\etc\hosts
+
+php artisan serve --host=ecommerce.test --port=8000
+
+
+
+Para conectar no MySQL Workbench:
+Host: 127.0.0.1
+
+Port: 3307 (nova porta)
+
+User: root
+
+Password: root
+
+Vantagens desta solução:
+✅ Sem conflito com containers existentes
+✅ Não apaga nada do projeto anterior
+✅ Fácil de lembrar - portas sequenciais (8081, 8082, 3307)
+✅ Mantém a configuração do domínio ecommerce.test
