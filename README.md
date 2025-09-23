@@ -6,7 +6,6 @@ Este repositório contém a base de um e-commerce desenvolvido com **Laravel** e
 
 -   Laravel 10+
 -   Livewire
--   Tailwind CSS
 -   PayPal REST API
 
 ## 📦 Funcionalidades (em desenvolvimento)
